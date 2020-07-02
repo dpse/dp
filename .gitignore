@@ -260,5 +260,6 @@ TSWLatexianTemp*
 
 .idea
 
-*.bak0
+*.bak*
 *.glstex
+_minted-*/
