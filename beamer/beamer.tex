@@ -1,0 +1,30 @@
+\documentclass{beamer}
+
+\usepackage{xcolor}
+
+\usetheme[progressbar=frametitle,titleformat=smallcaps,block=fill]{metropolis}
+
+% Define colors
+\definecolor{accentcolor}{cmyk}{.2,1,0.5,.15}
+\definecolor{accentgray}{cmyk}{0,1,.66,.42}
+
+\setbeamercolor{normal text}{fg=accentgray}
+\setbeamercolor{alerted text}{fg=accentcolor}
+
+\titlegraphic{\hfill\includegraphics[width=3cm]{logo}}
+
+\title{A Minimal Example}
+\date{\today}
+\author{Author}
+\institute{Institute}
+
+\begin{document}
+\maketitle
+\section{First Section}
+\begin{frame}{First Frame}
+	\begin{alertblock}{Test}
+		Test
+	\end{alertblock}
+	Hello, world!
+\end{frame}
+\end{document}
